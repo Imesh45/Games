@@ -1,0 +1,71 @@
+{
+  "Details": [
+    {
+      "gname": "Assisan Creed",
+      "type": "Online",
+      "mram": "4GB",
+      "mvga": "GEFORCE MX",
+      "rram": "8GB",
+      "rvga": "GEFORCE GTX",
+      "device": [
+        "Pc",
+        "Xbox",
+        "Ps5"
+      ],
+      "mvgasize": "GEFORCE MX130",
+      "rvgasize": "GEFORCE GTX1050",
+      "id": 1
+    },
+    {
+      "gname": "GTA V",
+      "type": "Offline",
+      "mram": "6GB",
+      "mvga": "GEFORCE MX",
+      "rram": "16GB",
+      "rvga": "GEFORCE RTX",
+      "device": [
+        "Pc",
+        "Xbox",
+        "Ps5",
+        "Ps5",
+        "Ps5",
+        "Ps5",
+        "Ps5"
+      ],
+      "mvgasize": "GEFORCE MX230",
+      "rvgasize": "GEFORCE RTX40",
+      "id": 2
+    },
+    {
+      "gname": "GOD OF THE WAR",
+      "type": "Online",
+      "mram": "8GB",
+      "mvga": "GEFORCE MX",
+      "rram": "16GB",
+      "rvga": "GEFORCE GTX",
+      "device": [
+        "Pc",
+        "Xbox",
+        "Ps5"
+      ],
+      "mvgasize": "GEFORCE MX350",
+      "rvgasize": "GEFORCE GTX1080",
+      "id": 3
+    },
+    {
+      "gname": "Watch Dog",
+      "type": "Offline",
+      "mram": "4GB",
+      "mvga": "GEFORCE MX",
+      "rram": "8GB",
+      "rvga": "GEFORCE GTX",
+      "device": [
+        "Pc",
+        "Ps5"
+      ],
+      "mvgasize": "GEFORCE MX130",
+      "rvgasize": "GEFORCE GTX1060",
+      "id": 4
+    }
+  ]
+}

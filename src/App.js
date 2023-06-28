@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import './App.css';
+import About_Us from './Page/About_Us';
+import Home from './Page/Home';
+import Offline from './Page/Offline';
+import Online from './Page/Online';
+import bgvideo from './Background/background.mp4'
+import View from './Page/View';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='main'>
+      <video src={bgvideo} autoPlay loop muted className='video-bg' />
+      <div className='context'>
+     <BrowserRouter>
+     <Routes>
+       <Route path='/' element={<Home/>}/>
+       <Route path='/Offline' element={<Offline/>}/>
+       <Route path='/Online' element={<Online/>}/>
+       <Route path='/About' element={<About_Us/>}/>
+       <Route path='/view/:id' element={<View/>}/>
+
+     </Routes>
+     </BrowserRouter>
+     </div>
     </div>
   );
 }
